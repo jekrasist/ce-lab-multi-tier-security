@@ -1,0 +1,30 @@
+[
+    {
+        "IpProtocol": "tcp",
+        "FromPort": 8080,
+        "ToPort": 8080,
+        "UserIdGroupPairs": [
+            {
+                "UserId": "741429964627",
+                "GroupId": "sg-001fd64d5ae03311c"
+            }
+        ],
+        "IpRanges": [],
+        "Ipv6Ranges": [],
+        "PrefixListIds": []
+    },
+    {
+        "IpProtocol": "tcp",
+        "FromPort": 22,
+        "ToPort": 22,
+        "UserIdGroupPairs": [
+            {
+                "UserId": "741429964627",
+                "GroupId": "sg-05a31e1b17c9011a1"
+            }
+        ],
+        "IpRanges": [],
+        "Ipv6Ranges": [],
+        "PrefixListIds": []
+    }
+]
